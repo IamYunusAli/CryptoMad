@@ -8,3 +8,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+body {
+  background-color: #04040C;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}

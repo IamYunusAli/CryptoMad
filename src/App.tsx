@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <p className='text-6xl'>Yunus Ali</p>
     </div>
   )
 }

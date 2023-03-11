@@ -1,5 +1,5 @@
 import React from 'react';
-import heroimg from "../assets/heroimg.png";
+import heroimg from "../assets/Robot.png";
 import sponsor from "../assets/1.png";
 
 const Hero = () => {
@@ -12,8 +12,8 @@ const Hero = () => {
                 <button type="button" className="border-solid bg-white text-black border-neutral-50 m-3 p-2 px-2">Sign up</button>
             </div>
             </div>
-            <div className="rightside">
-            <img src={heroimg} alt="heroimg" />
+            <div className="rightside flex justify-center">
+            <img src={heroimg} alt="heroimg" className='h-[70vh]' />
             </div>
             <div className="flex my-5 gap-10 items-center flex-row">
                 <img className="flex-wrap" src={sponsor} alt="sponsor" />
